@@ -13,6 +13,12 @@
           <maven.compiler.target>1.6</maven.compiler.target>
        </properties>
 	
+	<plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.6.3</version>
+       </plugin>
+	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
 	</properties>	
